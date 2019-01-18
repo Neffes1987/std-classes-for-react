@@ -19,7 +19,7 @@ class ALERT_REDUCE extends stdReduce {
     };                                    
 
     hide = (clone) => {
-        clone = '';
+        clone = this.initialState;
         return clone;
     };                                    
 }
